@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    gap: 10px;  /* Abstand zwischen den Buttons */
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 4px;
+    font-size: 12px;
+    color: #fff;  /* Weißer Text */
+    background-color: #007bff;  /* Bootstrap Blau */
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-icon i {
+    margin-right: 8px;  /* Abstand zwischen Icon und Text */
+}
+
+.btn-icon:hover {
+    background-color: #0056b3;  /* Dunkleres Blau beim Hover */
+}
+
+.btn-icon:active {
+    background-color: #004085;  /* Noch dunklerer Blau bei Aktivierung */
+}
